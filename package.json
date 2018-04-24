@@ -1,0 +1,25 @@
+{
+  "name": "ssstt",
+  "version": "1.0.0",
+  "description": "a tool",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:dev": "webpack --config webpack.dev.js",
+    "build:production": "webpack --config webpack.production.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unStone/ssstt.git"
+  },
+  "author": "lei.chen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/unStone/ssstt/issues"
+  },
+  "homepage": "https://github.com/unStone/ssstt#readme",
+  "devDependencies": {
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.0.15"
+  }
+}
